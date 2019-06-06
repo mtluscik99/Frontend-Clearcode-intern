@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "strict": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "pretty": true,
+    "outDir": "build",
+    "alwaysStrict": false,
+    "noImplicitReturns": true,
+    "noStrictGenericChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "rootDir": "src",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  }
+}

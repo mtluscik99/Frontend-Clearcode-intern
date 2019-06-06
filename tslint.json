@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "curly": [true, "ignore-same-line"],
+    "file-name-casing": [true, "kebab-case"],
+    "no-any": true,
+    "no-conditional-assignment": true,
+    "no-console": false,
+    "no-construct": true,
+    "no-duplicate-imports": true,
+    "no-parameter-reassignment": true,
+    "no-return-await": true,
+    "no-unnecessary-class": true,
+    "no-unused-expression": false,
+    "only-arrow-functions": false,
+    "quotemark": [true, "single"],
+    "object-literal-sort-keys": false,
+    "ter-prefer-arrow-callback": [false],
+    "trailing-comma": true,
+    "max-classes-per-file": false,
+    "interface-name": [true, "never-prefix"],
+    "import-name": false,
+    "ordered-imports": false,
+    "function-name": false,
+    "newline-before-return": true,
+    "no-empty-interface": false,
+    "no-namespace": [true, "allow-declarations"],
+    "unified-signatures": false,
+    "no-increment-decrement": false,
+    "array-type": false,
+    "no-empty": false
+  },
+  "rulesDirectory": []
+}

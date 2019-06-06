@@ -1,0 +1,28 @@
+{
+  "globals": {
+    "ts-jest": {
+      "tsConfig": "tsconfig.json"
+    }
+  },
+  "collectCoverageFrom": [
+    "src/**/*.ts"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/__tests__/"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts",
+    "node"
+  ],
+  "verbose": true,
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "testRegex": "/src.*/__tests__/*/.*spec.ts$"
+}

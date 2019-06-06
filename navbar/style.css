@@ -1,0 +1,50 @@
+ 
+ body {
+    color: white;
+    margin: 0;
+ }
+
+ .navbar ul {
+     display: flex;
+     list-style: none;
+     background-color: #252D76;
+     padding: 0;
+ }
+
+ .navbar ul li {
+     line-height: 3rem;
+     text-align: center;
+     padding: 0 1.125rem;
+ }
+
+ .navbar ul li:last-child {
+     margin-left: auto;
+ }
+
+ .navbar ul li:hover {
+     background-color: #32A5E6;
+ }
+
+ .navbar ul li:hover #dropdown {
+     display: block;
+     position: absolute;
+ }
+
+ #dropdown {
+     display: none;
+     margin-left: -1.125rem;
+     width: 12rem;
+     text-align: left;
+     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.151);
+ }
+
+ #dropdown li {
+     text-align: left;
+     background-color: #fff;
+     color: #000;
+ }
+
+ #dropdown li:hover {
+     background-color: #32A5E6;
+     cursor: pointer;
+ }
